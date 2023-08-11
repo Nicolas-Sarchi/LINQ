@@ -13,6 +13,6 @@ public MenuPrincipal(){}
         Console.WriteLine($"4. Listar Productos");
         Console.WriteLine("5. Costo Total del Inventario");
         Console.WriteLine($"6. Salir");
-        return Convert.ToInt32(Console.ReadLine())
+        return Convert.ToInt32(Console.ReadLine());
     }
 }

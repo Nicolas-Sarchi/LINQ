@@ -1,39 +1,35 @@
 ﻿using Tienda.classes;
 using Tienda.view;
-internal class Program
+
+
+_ = new MenuPrincipal();
+int opcion;
+Env.CargarCategorias();
+Env.CargarProductos();
+
+do
 {
-    private static void Main(string[] args)
+    opcion = MenuPrincipal.MostrarMenu();
+
+    switch (opcion)
     {
-        TiendaABS tienda = new TiendaABS();
-        MenuPrincipal menuPrincipal = new();
-        int opcion;
-
-        do
-        {
-            opcion = MenuPrincipal.MostrarMenu();
-
-            switch (opcion)
-            {
-                case 1:
-
-                    tienda.RegistrarProducto();
-                    break;
-                case 2:
-
-                    tienda.RegistrarCategoria();
-                    break;
-                case 3:
-                    tienda.ListarCategorias();
-                    break;
-                case 4:
-                    tienda.ListarProductos();
-                    break;
-                default:
-                    break;
-            }
-
-
-        } while (opcion != 6);
-
+        case 1:
+            Env.RegistrarProducto();
+            break;
+        case 2:
+            Env.RegistrarCategoria();
+            break;
+        case 3:
+            Env.ListarCategorias();
+            break;
+        case 4:
+            Env.ListarProductos();
+            break;
+        case 5:
+            Env.CostoTotalInventario();
+            break;
+        default:
+            break;
     }
-}
+
+} while (opcion != 6);

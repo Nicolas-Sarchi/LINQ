@@ -1,0 +1,35 @@
+[
+  {
+    "CodProducto": 1,
+    "Nombre": "Carne",
+    "Stock": 10,
+    "StockMin": 1,
+    "StockMax": 20,
+    "PrecioVenta": 1000.0,
+    "PrecioCompra": 20.0,
+    "IdCategoria": 1,
+    "Subtotal": 10000.0
+  },
+  {
+    "CodProducto": 2,
+    "Nombre": "Queso",
+    "Stock": 34,
+    "StockMin": 2,
+    "StockMax": 333,
+    "PrecioVenta": 20.0,
+    "PrecioCompra": 15.0,
+    "IdCategoria": 2,
+    "Subtotal": 680.0
+  },
+  {
+    "CodProducto": 3,
+    "Nombre": "Carne Molida",
+    "Stock": 9,
+    "StockMin": 2,
+    "StockMax": 90,
+    "PrecioVenta": 900.0,
+    "PrecioCompra": 90.0,
+    "IdCategoria": 1,
+    "Subtotal": 0.0
+  }
+]

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U4BQy5JQzDQcehwj+nrrTHGunatRFCYnlxArrJalhqflVv5EsHJPLMMgVazKFb87W1nVffWvB4qYWU+mSZMD/A==",
+  "dgSpecHash": "FqF0gE5WQluANLik9RCsfD05jvSZV0COqzSX938MvGSt7lyLzgHyvlfX9jCq0QDB7hbIqyPC4mesjLkdqaJiLA==",
   "success": true,
-  "projectFilePath": "/home/arteN01-049/Desktop/LINQ/Tienda/Tienda.csproj",
+  "projectFilePath": "C:\\Users\\Nicolas\\Desktop\\LINQ\\Tienda\\Tienda.csproj",
   "expectedPackageFiles": [
-    "/home/arteN01-049/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Nicolas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

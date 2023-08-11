@@ -9,30 +9,14 @@ public class Producto
     public double PrecioVenta { get; set;}
     public double PrecioCompra { get; set;}
     public int IdCategoria { get; set;}
+    public double Subtotal { get; set;}
     
 
     public Producto ()
     {
-        if (!File.Exists(Env.FileName))
+        if (!File.Exists(Env.FileNamep))
         {
-            File.WriteAllText(Env.FileName, "");
+            File.WriteAllText(Env.FileNamep, "");
         }
     }
-    public Producto (int codProducto, string nombre, int stock, int stockMin, int stockMax, double precioVenta, double precioCompra, int idCategoria)
-    {
-        CodProducto = codProducto;
-        Nombre = nombre;
-        Stock = stock;
-        StockMin = stockMin;
-        StockMax = stockMax;
-        PrecioVenta = precioVenta;
-        PrecioCompra = precioCompra;
-        IdCategoria = idCategoria;
-    }
-
-    public double CalcularSubtotal()
-    {
-        return PrecioVenta * Stock;
-    }
-    
 }

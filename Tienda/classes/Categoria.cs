@@ -4,10 +4,11 @@ public class Categoria
 {
     public int Id { get; set;}
     public string Descripcion { get; set;}
-
-    public Categoria (int id, string descripcion)
+    public Categoria()
     {
-        Id = id;
-        Descripcion = descripcion;
+        if (!File.Exists(Env.FileNameC))
+        {
+            File.WriteAllText(Env.FileNameC, "");
+        }
     }
 }
